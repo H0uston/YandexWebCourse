@@ -1,0 +1,368 @@
+/*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+/* My code */
+@import url('https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700');
+@font-face {
+    font-family: Drago;
+    src: url("fonts/Drago-Regular.otf")
+}
+
+body
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear-fix:after
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+p
+{
+    margin: 0;
+}
+
+/*––––––––––––––––––Шапка газеты––––––––––––––––––––*/
+.header
+{
+    margin: 35px 0 25px;
+}
+
+.header__info
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 200px;
+    padding: 25px 10px;
+
+    border: 1px solid;
+
+    /* My code */
+    text-align: center;
+}
+
+.header__weather
+{
+    float: right;
+
+    width: 200px;
+}
+
+.header__weather-title
+{
+    margin: 0;
+
+    /* My code */
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.17em;
+}
+
+.header__weather-text
+{
+    margin: 0;
+
+    /* My code */
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.header__title
+{
+    overflow: visible;
+
+    margin: 0;
+    /* My code */
+    font-family: Drago, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/*––––––––––––––––––Подшапка газеты–––––––––––––––––*/
+.sub-header
+{
+    padding: 5px 0;
+
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+}
+
+.sub-header__copyright
+{
+    display: inline-block;
+
+    margin: 0 30px;
+
+    /* My code */
+    font-size: 60%;
+}
+
+.sub-header__price
+{
+    float: right;
+}
+
+
+/*––––––––––––––––––Основной контент––––––––––––––––*/
+.content
+{
+    display: flex;
+}
+
+/*––––––––––––––––––Блок статьи–––––––––––––––––––––*/
+.article__title
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    /* My code */
+    font-family: "Six Caps", sans-serif;
+    font-weight: 600;
+    font-size: 3.2em;
+}
+
+.article__help
+{
+    margin-top: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+
+.article__add-text
+{
+    margin-top: 10px;
+    margin-bottom: 4px;
+
+    /* My code */
+    text-align: justify;
+
+    font-size: 0.8em;
+    text-indent: 2ch;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.article__author
+{
+    display: block;
+
+    margin-top: 10px;
+
+    /* My code */
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: center;
+    column-span: all;
+}
+/* My code */
+.article__content
+{
+    font-size: 0.8em;
+    text-indent: 2ch;
+    text-align: justify;
+}
+
+.article__continue
+{
+    display: block;
+
+    /* My code */
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+    column-span: all;
+}
+
+.article__image
+{
+    margin: 0;
+    text-indent: 0;
+}
+
+.article__image.article__image_align_right
+{
+    float: right;
+
+    margin: 10px 0 5px 10px;
+}
+
+.article__subtitle
+{
+    margin: 10px 0;
+
+    /* My code */
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: 600;
+}
+
+/* My code */
+.article__title_font_farsan
+{
+    font-family: "Farsan", cursive;
+    font-size: 2.3em;
+    font-weight: 600;
+}
+
+/* My code */
+.article__image-caption
+{
+    font-size: 0.8em;
+    text-decoration: underline;
+    text-align: center;
+}
+/*––––––––––––––––––Блок главной фотографии–––––––––*/
+.main-photo__wrapper
+{
+    margin: 0;
+}
+
+.main-photo__img
+{
+    width: 100%;
+}
+
+.main-photo__title
+{
+    margin: 0;
+
+    /* My code */
+    font-weight: 600;
+}
+
+.main-photo__desc
+{
+    margin-bottom: 20px;
+
+    /* My code */
+    font-size: 0.8em;
+}
+/* My code */
+.main-photo__caption
+{
+    font-size: 0.7em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+/*––––––––––––––––––Линия разделения––––––––––––––––*/
+.line
+{
+    border-top: 1px solid #000;
+}
+
+.line.line_type_bold
+{
+    margin-bottom: 3px;
+
+    border-width: 2px;
+}
+
+.line.line_type_short
+{
+    width: 70px;
+    margin: 0 auto;
+}
+
+/*––––––––––––––––––Центральные колонки газеты––––––––––––––––––*/
+.multicolumn
+{
+    margin-top: 10px;
+}
+
+.multicolumn__right,
+.multicolumn__left
+{
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 49%;
+
+    vertical-align: top;
+}
+
+/* My code */
+.multicolumn__right .article__content
+{
+    column-count: 2;
+    column-width: 15px;
+}
+
+/* My code */
+.multicolumn__left .article__content
+{
+    column-count: 2;
+    column-width: 15px;
+}
+
+.multicolumn__right
+{
+    padding-left: 10px;
+}
+
+.multicolumn__left
+{
+    padding-right: 10px;
+
+    border-right: 1px solid #000;
+}
+
+.multicolumn .line_type_short
+{
+    width: 50%;
+    margin: 10px auto;
+}
+
+.multicolumn .article__title
+{
+    margin: 10px 0 0 0;
+}
+
+.center-column
+{
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-grow: 2;
+}
+
+/* My code */
+.article__title_font_racing
+{
+    font-family: "Racing Sans One", cursive;
+    font-size: 2em;
+    font-weight: 600;
+}
+/*––––––––––––––––––Второстепенные колонки газеты––––––––––––––––––*/
+.left-column
+{
+    border-right: 1px solid #000;
+}
+
+.right-column
+{
+    border-left: 1px solid #000;
+}
+
+.right-column,
+.left-column
+{
+    box-sizing: border-box;
+    width: 200px;
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-shrink: 0;
+}
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––*/
