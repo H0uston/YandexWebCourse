@@ -1,0 +1,22 @@
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    animation:  show 3s linear infinite alternate;
+}
+
+.box:hover
+{
+    background-color: #ffff00;
+    transition: background-color 500ms;
+}
+
+@keyframes show
+{
+    0% { transform: none }
+    25% { transform: translateX(100px); }
+    50% { transform: translate(100px, 100%); }
+    75%, 100% { transform: translate(100px, 100%) scale(2) rotate(145deg); }
+}
