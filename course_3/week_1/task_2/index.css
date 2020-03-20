@@ -1,0 +1,231 @@
+/* Main styles */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    margin: 50px 30px;
+    min-width: 800px;
+}
+
+main div
+{
+    display: block;
+}
+
+a
+{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/* For table content */
+main > input[type="radio"] + label,
+main > input[type="radio"] + label
+{
+    font-family:Arial, sans-serif;
+    font-size: 0.8em;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+main > input[type="radio"],
+main  > input[type="radio"]
+{
+    display: none;
+}
+
+main > input[type="radio"]:not(:checked)+label,
+main > input[type="radio"]:not(:checked)+label
+{
+    color: lightgrey;
+    border-color: lightgrey;
+}
+
+main > #table:checked ~ div.content__side
+{
+    margin: 25px 10px;
+    width: 100%;
+    min-width: 230px;
+}
+
+/* Product table */
+
+main > #table:checked ~ div.content__side > .product
+{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    border: #000 2px solid;
+    display: inline-block;
+}
+
+main > #table:checked ~ div.content__side > .product > img
+{
+    margin: 5px auto;
+    height: 200px;
+    max-height: 100%;
+    max-width: 90%;
+    display: block;
+}
+
+main > #table:checked ~ div.content__side > .product > p
+{
+    margin: 5px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: auto;
+}
+
+main > #table:checked ~ div.content__side > .product > .product__info > p
+{
+    margin: 5px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: auto;
+}
+
+main > #table:checked ~ div.content__side > div.product > p.description
+{
+    height: 70px;
+    white-space: normal;
+    border: 2px dashed cornflowerblue;
+    width: 285px;
+}
+
+/* Product list */
+
+main > #list:checked ~ div.content__side > .product
+{
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    height: 210px;
+    border: #000 2px solid;
+    min-width: 1150px;
+}
+
+main > #list:checked ~ div.content__side > .product > img
+{
+    margin: 10px 5px;
+    height: 200px;
+    max-height: 90%;
+    width: 200px;
+    display: inline-block;
+}
+
+main > #list:checked ~ div.content__side > .product > .product__info
+{
+    display: inline-block;
+}
+
+main > #list:checked ~ div.content__side > .product > p
+{
+    margin: 5px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: auto;
+}
+
+main > #list:checked ~ div.content__side > .product > .product__info > p
+{
+    margin: 15px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: auto;
+}
+
+main > #list:checked ~ div.content__side > div.product > p.description
+{
+    height: 200px;
+    white-space: normal;
+    width: 50%;
+    min-width: 100px;
+    display: inline-block;
+}
+
+main > #list:checked ~ div.content__side > .product > .product__info > .product__price,
+main > #list:checked ~ div.content__side > .product > .product__info > .product__price
+{
+    margin-bottom: 50px;
+}
+
+.product:hover .product__info > p > a
+{
+    color: red !important;
+}
+
+.product:hover img
+{
+    opacity: 0.7;
+}
+
+p.product__name
+{
+    font-size: 30px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+p.product__category
+{
+    color: grey;
+    text-decoration: underline;
+}
+
+.product div.product__rating
+{
+    margin: 0 auto;
+    width: 125px;
+    height: 25px;
+}
+
+.product__rating input[type="radio"]
+{
+    display: none;
+}
+
+.label_rating
+{
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(rating.png) no-repeat 50% 0;
+    cursor: pointer;
+}
+
+.product__rating .label_rating:hover,
+.product__rating .label_rating:hover ~ .label_rating,
+.product__rating input[type="radio"]:checked ~ .label_rating
+{
+    background-position: 5px -25px;
+}
+
+p.product__price > span.current__price
+{
+    font-size: 20px;
+    color: brown;
+}
+
+p.product__price > span.old__price
+{
+    text-decoration: line-through;
+}
