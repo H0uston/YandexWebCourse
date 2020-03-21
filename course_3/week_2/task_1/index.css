@@ -1,0 +1,30 @@
+
+body
+{
+    height: 10000px;
+}
+
+.cookies_notification
+{
+    position: fixed;
+    right: 25px;
+    top: 25px;
+    width: 150px;
+    border: #38a634 2px solid;
+}
+
+.cookies_notification > p
+{
+    padding: 10px 10px 20px;
+    margin: 0;
+}
+
+.cookies_notification > .accept__button
+{
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    border: 0px;
+    background-color: #38a634;
+    color: #FFF;
+}
