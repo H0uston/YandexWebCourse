@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #efefef;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin-bottom: 5px;
+}
+p{
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+/*h2:before{
+  content: '';
+  background-color: #31b7da;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  top: 35px;
+  left: 640px;
+}*/
+.card{
+  margin: 0 auto;
+  max-width: 80%
+}
+.card-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  background-color: #e5e9ea;
+  /*overflow: hidden;*/
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.img{
+  overflow: hidden;
+  height: 250px;
+  position: relative;
+}
+.card-item:hover{
+  box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
+}
+.card-item:hover img{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.card-item:hover .card-title{
+  color: #da3131;
+}
+.card-item:hover .card-text{
+  font-style: italic;
+}
+.card__parameter{
+  padding: 20px 10px;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 11px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-text{
+  color: #31b7da;
+  font-size: 12px;
+}
+.card-price, .card-priceold{
+  display: inline;
+}
+.card-price{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  background-color: #31b7da;
+  padding: 10px;
+  border-radius: 25px;
+  color: #aeeeff;
+}
+.card-priceold{
+  color: #999;
+  font-size: 14px;
+}
+.card-info{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 10px 20px;
+}
+.card-item{
+  margin-right: 15px;
+}
+.card__item:hover img{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.hint-star {
+	display: inline-block;
+  color: #31b7da;
+  margin-top: 10px;
+  margin-bottom: 20px;
+	width: 50%;
+}
+
+
+/**/
+/* списочная вёрстка */
+#type-list:checked + .card .card-item{
+  display: block;
+  width: 100%
+}
+
+#type-list:checked + section .img,
+#type-list:checked + section .card__parameter,
+#type-list:checked + section .card-info
+{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+
+
+
+

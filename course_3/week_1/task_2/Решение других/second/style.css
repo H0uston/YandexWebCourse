@@ -1,0 +1,145 @@
+.cats {
+	width: 100%;
+	text-align: center;
+}
+.container {
+	width: 250px;
+	height:600px;
+	padding: 10px 50px;
+display: inline-block;
+vertical-align: middle;
+	}
+
+
+.image {
+position: relative;
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 300px;
+	
+}
+.image:hover {
+	opacity: 0.7;
+
+}
+.name {
+	font-size: 30px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+
+}
+.name a {
+	text-decoration: none;
+	transition: color .1s linear;
+
+}
+.name a:hover {
+text-decoration: underline;
+color :red;
+}
+.category {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.rating {
+margin: 5px 0 0  0;
+padding: 0;
+border: 0;
+}
+.rating__group {
+	position: relative;
+	background-size: 10em auto;
+	width: 10em;
+	height: 2em;
+	background-image: url("./images/star.png");
+background-repeat: repeat-x;
+}
+
+.rating__star {
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+position: absolute;
+top: 0;
+left: 0;
+height: 2em;
+font-size: inherit;
+margin: 0;
+background-size: 10em auto;
+background-repeat: repeat-x;
+}
+.rating__star:focus {
+outline: none;
+}
+
+.rating__star:checked,
+.rating__star:hover  {
+background-image: url("./images/star2.png");
+}
+
+.rating__star:hover ~ .rating__star {
+background-image: url("./images/star.png");
+}
+.rating__star:nth-of-type(1) {
+	width: 1em;
+		z-index: 10;
+}
+.rating__star:nth-of-type(2) {
+	width: 2em;
+		z-index: 9;
+}
+.rating__star:nth-of-type(3) {
+	width: 3em;
+		z-index: 8;
+}
+.rating__star:nth-of-type(4) {
+	width: 4em;
+		z-index: 7;
+}
+.rating__star:nth-of-type(5) {
+	width: 5em;
+		z-index: 6;
+}
+.rating__star:nth-of-type(6) {
+	width: 6em;
+		z-index: 5;
+}
+.rating__star:nth-of-type(7) {
+	width: 7em;
+		z-index: 4;
+}
+.rating__star:nth-of-type(8) {
+	width: 8em;
+		z-index: 3;
+}
+.rating__star:nth-of-type(9) {
+	width: 9em;
+		z-index: 2;
+}
+.rating__star:nth-of-type(10) {
+	width: 10em;
+	z-index: 1;
+}
+
+
+.price {
+color: red;
+font-size: 20px;
+font-weight: 600;
+margin-top: 5px;
+}
+
+.old__price {
+	padding-left: 5px; 
+	color: blue;
+	text-decoration: line-through;
+	font-weight: 300;
+}
+.description {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
