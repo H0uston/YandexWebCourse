@@ -1,0 +1,176 @@
+
+/*
+==============================
+        Header style
+==============================
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header > span
+{
+    color: red;
+}
+
+header
+{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+
+/*
+==============================
+      Main content style
+==============================
+*/
+
+main
+{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+}
+
+main > div.content-block > div
+{
+    margin: 0;
+    padding: 0;
+}
+
+main > div.content-block > div.card
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+    font-size: 0;
+    height: 500px;
+}
+
+main > div.content-block > div.card > a.photo-container > img
+{
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 160px;
+}
+
+/*
+==============================
+       radio buttons
+==============================
+*/
+main > input[type="radio"]
+{
+    position: fixed;
+    left: 50%;
+    top: 80%;
+}
+
+main > input[type="radio"]:not(:checked) + div.content-block
+{
+    display: none;
+}
+
+#button-1
+{
+    transform: translateX(-36px);
+}
+
+#button-2
+{
+    transform: translateX(-18px);
+}
+
+#button-4
+{
+    transform: translateX(18px);
+}
+
+/*
+==============================
+        Large image
+==============================
+*/
+div.content-block > div.card > div.image > input[type="checkbox"]
+{
+    display: none;
+}
+
+
+div.content-block > div.card > div.image
+{
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 160px;
+}
+
+div.content-block > div.card > div.image > input[type="checkbox"] + label
+{
+    display: block;
+    width: 200px;
+    height: 160px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background-image: url('http://lorempixel.com/800/600');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+div.content-block > div.card > div.image > input[type="checkbox"]:checked + label
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    background-color: rgba(10,10,10,0.9);
+    background-size: auto;
+    z-index: 9999;
+}
+
+/*
+==============================
+    Showing description
+==============================
+*/
+
+div.content-block > div.card > article.description
+{
+    display: none;
+}
+
+div.content-block > div.card:hover > article.description
+{
+    margin: 0 0 0 20px;
+    padding: 0;
+    display: block;
+    font-size: 14px;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+div.content-block > div.card:hover
+{
+    margin: -2px;
+    border: 2px black solid;
+    box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
