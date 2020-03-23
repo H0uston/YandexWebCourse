@@ -1,0 +1,57 @@
+Для вашего удобства здесь мы собрали все ссылки на статьи и материалы из лекций пятой недели.
+Преобразования
+Трансформация
+webref.ru
+
+Transform generator
+www.css3maker.com
+
+Множественные преобразования
+Transform-origin
+tympanus.net
+
+Преобразования в трехмерном пространстве
+Intro 3d transform
+desandro.github.io
+
+CSS 3d–трансформации
+html5book.ru
+
+Изучаем матрицы трансформаций в CSS
+dev.opera.com
+
+Переходы
+Список анимируемых свойств
+www.w3.org
+
+Генератор функции Безье
+cubic-bezier.com
+
+Функции плавности
+easings.net/ru
+
+Пример: гелиевый шарик
+codepen.io
+
+CSS переходы
+developer.mozilla.org
+
+Анимации
+Использование CSS анимаций
+developer.mozilla.org
+
+CSS3 анимация
+html5book.ru
+
+Разбор задач по теме
+Creative Link Effects
+tympanus.net
+
+Day night simulation
+codepen.io
+
+Solar System
+codepen.io
+
+Pure CSS
+www.keithclark.co.uk
