@@ -1,0 +1,41 @@
+Статья «How browsers work»
+taligarsiel.com
+
+Статья «Принципы работы современных браузеров»
+www.html5rocks.com
+
+Статья «Прошлое и будущее компиляции JavaScript»
+habrahabr.ru
+
+Сайт «Эволюция интернета»
+evolutionofweb.appspot.com
+
+W3С resource hints
+w3c.github.io
+
+Cтатья «История user agent»
+geektimes.ru
+
+HTML Validator
+validator.w3.org
+
+CSS Validator
+www.css-validator.org
+
+БЭМ методология
+ru.bem.info
+
+Методология OOCSS
+oocss.org
+
+Методология MCSS
+operatino.github.io
+
+Методология smacss
+smacss.com
+
+Методология Atomic CSS
+acss.io
+
+Видео «Анимация на CSS и JS»
+FrontTalks, 2015 год, Александр Завьялов
