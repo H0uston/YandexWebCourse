@@ -1,0 +1,42 @@
+Спецификация SVG
+www.w3.org
+
+Про SVG в MDN
+developer.mozilla.org
+
+Цветовые модели: RGB, HSV, HSL
+en.wikibooks.org
+
+Знакомство с SVG-графикой
+habrahabr.ru
+
+SVG в вебе
+svgontheweb.com
+
+Методы компрессии и сжатия изображений
+www.infocity.kiev.ua
+
+Работа с изображениями
+www.artlebedev.ru
+
+Простой секрет ГИФа
+www.artlebedev.ru
+
+Статья «Прогрессивный JPEG: новый best practice»
+habrahabr.ru
+
+Работа с макетом
+events.yandex.ru
+
+Полное руководство по началу работы в Sketch
+sketchapp.me
+
+CSS3-градиент
+html5book.ru
+
+Статья «Хорошо ли вы знаете linear-gradient?»
+habrahabr.ru
+
+CSS спрайты: основные техники и полезные инструменты
+habrahabr.ru
+
