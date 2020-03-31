@@ -1,0 +1,15 @@
+Дополнительные материалы
+Layer 3: Constructors—Factories for Instances
+Speaking JavaScript, Axel Rauschmayer
+
+Layer 4: Inheritance Between Constructors
+Speaking JavaScript, Axel Rauschmayer
+
+Common Misconceptions About Inheritance in JavaScript
+Eric Elliott
+
+Лекция про this
+Лекции по web-разработке в УрФУ, 2015 год, Гоголев Сергей
+
+ООП в прототипном стиле
+Современный учебник Javascript, Илья Кантор
