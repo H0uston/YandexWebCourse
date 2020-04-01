@@ -1,0 +1,58 @@
+Дополнительные материалы
+Про Node.js
+Original Node.js presentation (видео)
+Ryan Dahl
+
+Understanding Node.js Event Loop
+Tamas Kadlecsik
+
+How does NodeJS work
+Eugene Obrezkov
+
+Node.js Design Patterns
+Mario Casciaro, Luciano Mammino
+
+Node.js Guides
+nodejs.org
+
+Про модули Node.js
+Node.js API docs
+nodejs.org
+
+Modules/1.1.1
+wiki.commonjs.org
+
+Полный алгоритм поиска модуля в Node.js
+nodejs.org
+
+Про NPM
+Глобальное хранилище модулей
+https://registry.npmjs.org/lodash
+
+Advanced Range Syntax
+docs.npmjs.com
+
+Semantic Versions
+semver.org
+
+package-lock.json A manifestation of the manifest
+docs.npmjs.com
+
+package.json
+docs.npmjs.com
+
+NPM – найдётся подходящий модуль
+доклад на конференции WSD, 2016, Всеволод Струкчинский
+
+Про libuv
+About libuv (видео)
+Bert Belder
+
+Design overview
+docs.libuv.org
+
+Basics of libuv
+docs.libuv.org
+
+On problems with threads in Node.js
+Aleksander Kasiuk
