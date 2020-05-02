@@ -171,3 +171,63 @@ p
 {
     background: #F44336;
 }
+
+.timer
+{
+    margin: 30px auto 0;
+    font-family: "Arial", serif;
+    font-size: 36px;
+    color: #434344;
+    text-align: center;
+}
+
+.result
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    min-width: 350px;
+    background-color: white;
+    text-align: center;
+}
+
+.result > p
+{
+    margin-top: 30px;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.result-background
+{
+    display: none;
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.restart-button
+{
+    display: grid;
+    background: linear-gradient(to top right, #22AB93, #19668D);
+    height: 40px;
+    margin: 0 auto 40px;
+    color: white;
+    font-family: "Arial", serif;
+    font-size: 20px;
+    padding: 0 30px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.restart-button > p
+{
+    place-self: center;
+}
