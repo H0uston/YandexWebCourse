@@ -1,0 +1,161 @@
+body {
+  /* overflow: hidden; */
+  width: 100%;
+  height: auto;
+  min-height: fit-content;
+}
+
+.carousel {
+    background: #ffffff;
+    text-align: center;
+    padding: 3em 0 2em 0;
+    /* max-width: 100%; */
+    /* min-width: 1000px; */
+    min-height: 300px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 990px;
+}
+.carousel .slides {
+    width: 400%;
+    left: 0;
+    padding-left: 0;
+    padding-top: 1em;
+    /* overflow: hidden; */
+    list-style: none;
+    position: relative;
+  
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+  }
+  .slide {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding-left: 11px;
+    padding-right: 8px;
+  }
+  .carousel .slidesNavigation {
+    display: block;
+    list-style: none;
+    text-align: center;
+    bottom: 1em;
+    position: absolute;
+    width: 104px;
+    left: 50%;
+    margin-left: -52px;
+  }
+  .carousel input {
+    display: none;
+  }
+  .carousel .slidesNavigation label {
+    float: left;
+    margin: 6px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 2px #2980b9;
+    font-size: 0;
+  }
+  .carousel .slidesNavigation label:hover {
+    cursor: pointer;
+ }
+.carousel #radio-1:checked ~ .slidesNavigation label#dotForRadio-1,
+.carousel #radio-2:checked ~ .slidesNavigation label#dotForRadio-2,
+.carousel #radio-3:checked ~ .slidesNavigation label#dotForRadio-3,
+.carousel #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+  background: #2980b9;
+}
+#radio-1:checked ~ .slides {
+    transform: translateX(0%);
+  }
+  #radio-2:checked ~ .slides {
+    transform: translateX(-18.7%);
+  }
+  #radio-3:checked ~ .slides {
+    transform: translateX(-37.5%);
+  }
+  #radio-4:checked ~ .slides {
+    transform: translateX(-56.05%);
+  }
+
+  /* блок с картинками */
+.box {
+    display: inline-block;
+    padding: 10px;
+    width: min-content;
+  }
+.desc {
+    display: none;
+    text-align: left;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box:hover .desc {
+  display: table;
+}
+.box:hover {
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 162);
+  background: rgb(255, 255, 255);
+}
+.pix {
+  display: inline-block;
+  vertical-align: middle;
+  width: 220px
+}
+a img {
+  height: 10em;
+}
+
+    /* модальный контент */
+
+.targets {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.targets:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.m-content {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+.m-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: fixed;
+  background-color: #000;
+  background: rgba(0,0,0,.7);
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10
+}
+.close-btn:after {
+  display: inline-block;
+  content: "\00d7";
+  position: fixed;
+  transform: scale(2);
+  right: 15px;
+  top: 15px;
+  color: #fff;
+  z-index: 20;
+}
+.modal-block {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}

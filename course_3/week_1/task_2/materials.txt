@@ -1,0 +1,20 @@
+О визуальной модели форматирования
+developer.mozilla.org
+
+Cпецификация CSS2. Раздел про боксы
+www.w3.org
+
+Раздел про схлопывающиеся margin
+www.w3.org
+
+Статья про схлопывание на русском языке
+htmlbook.ru
+
+Про CSS-свойство box-sizing
+developer.mozilla.org
+
+Про блочный контекст форматирования
+developer.mozilla.org
+
+Про то, как его понять
+www.sitepoint.com
