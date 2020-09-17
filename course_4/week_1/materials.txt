@@ -1,0 +1,15 @@
+Дополнительные материалы
+Layer 1: Single Objects
+Speaking JavaScript, Axel Rauschmayer
+
+Layer 2: The Prototype Relationship Between Objects
+Speaking JavaScript, Axel Rauschmayer
+
+Object.defineProperty()
+MDN
+
+Лекция про this
+Лекции по web-разработке в УрФУ, 2015 год, Гоголев Сергей
+
+Прототип объекта
+Современный учебник Javascript, Илья Кантор

@@ -1,0 +1,8 @@
+Why does document.querySelectorAll return a StaticNodeList rather than a real Array?
+stackoverflow.com
+
+Документация: Node
+developer.mozilla.org
+
+Документация: Element
+developer.mozilla.org
